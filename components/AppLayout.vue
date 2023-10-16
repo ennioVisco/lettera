@@ -1,10 +1,10 @@
 <script setup lang="ts">
-const myTheme = useAppConfig().lettera
+const { lettera } = useAppConfig()
 </script>
 
 <template>
   <div>
-    <header>{{ myTheme?.title || 'My project' }}</header>
+    <header>{{ lettera?.title || 'My project' }}</header>
     <main>
       <slot />
     </main>

@@ -1,5 +1,5 @@
 export default defineAppConfig({
   lettera: {
-    title: 'My Project'
+    title: 'Lettera Nuxt Theme'
   }
 })

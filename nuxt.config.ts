@@ -6,7 +6,9 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org
     '@nuxt/content',
     // https://pinceau.dev
-    'pinceau/nuxt'
+    'pinceau/nuxt',
+    // Google fonts module
+    '@nuxtjs/google-fonts'
   ],
   content: {
     documentDriven: true
@@ -16,5 +18,14 @@ export default defineNuxtConfig({
   },
   typescript: {
     includeWorkspace: true
+  },
+  googleFonts: {
+    families: {
+      Lato: {
+        wght: [100, 300, 400, 700, 900],
+        ital: [400, 900]
+      }
+
+    }
   }
 })

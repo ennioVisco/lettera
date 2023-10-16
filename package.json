@@ -20,13 +20,15 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.6.0",
-    "pinceau": "^0.18.9",
-    "@nuxthq/studio": "^0.13.2"
+    "@nuxthq/studio": "^0.13.2",
+    "pinceau": "^0.18.9"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/google-fonts": "^3.0.2",
     "eslint": "^8.42.0",
     "nuxt": "^3.5.2",
+    "sass": "^1.69.3",
     "typescript": "^5.1.3"
   }
 }
